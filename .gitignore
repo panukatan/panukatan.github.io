@@ -2,7 +2,10 @@
 .Rhistory
 .RData
 .Ruserdata
+<<<<<<< HEAD
 
 /.quarto/
 
 docs
+=======
+>>>>>>> 154e3a1 (initial commit)
