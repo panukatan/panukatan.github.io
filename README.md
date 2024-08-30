@@ -1,4 +1,4 @@
-# panukatan Website ![](img/panukatan.png)
+# panukatan Website <a href="https://panukatan.io" target="_blank"><img src="img/panukatan.png" width="200" align="right" /></a>
 
 [![Quarto Publish](https://github.com/panukatan/panukatan.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/panukatan/panukatan.github.io/actions/workflows/publish.yml)
 
