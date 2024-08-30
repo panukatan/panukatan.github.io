@@ -1,5 +1,5 @@
 ---
-title: "Welcome to panukatan!"
+title: "Welcome to panukatan"
 ---
 
 **panukatan** is an open-source project that aims to design and develop tools and systems to manage, analyse, and report various publicly-available data relevant to the Philippines for research and education purposes. It also hopes to contribute data and content usable for teaching science, technology, engineering, and mathematics (STEM) topics and for capacity-building on data literacy and data management. The term **panukatan** is a Filipino word that loosely translates to "metrics" or "standards", which reflects the project's overarching goal of providing standardised data, robust data tools, systems, and methods that support research and education in the Philippine context.
