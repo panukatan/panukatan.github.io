@@ -1,0 +1,7 @@
+---
+title: Software
+listing:
+  contents:
+    - "../software/*.qmd"
+  type: grid
+---

@@ -1,0 +1,7 @@
+---
+title: Data
+listing:
+  contents:
+    - "../data/*.qmd"
+  type: grid
+---
