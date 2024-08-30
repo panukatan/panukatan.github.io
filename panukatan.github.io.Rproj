@@ -11,6 +11,9 @@ Encoding: UTF-8
 
 RnwWeave: knitr
 LaTeX: pdfLaTeX
+<<<<<<< HEAD
 
 AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
+=======
+>>>>>>> 8133137 (initial commit)

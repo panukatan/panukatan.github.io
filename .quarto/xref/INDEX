@@ -1,0 +1,47 @@
+{
+  "index.qmd": {
+    "index.html": "955cfa24"
+  },
+  "about.qmd": {
+    "about.html": "72d62d7e"
+  },
+  "projects/index.qmd": {
+    "index.html": "ae9d38a8"
+  },
+  "about/team.qmd": {
+    "team.html": "7a4a2d83"
+  },
+  "about/contact.qmd": {
+    "contact.html": "e17242e1"
+  },
+  "software/bagyo.qmd": {
+    "bagyo.html": "d3c3cbe0"
+  },
+  "projects/software.qmd": {
+    "software.html": "81dee60f"
+  },
+  "projects/data.qmd": {
+    "data.html": "3b3f3c13"
+  },
+  "projects/workflow.qmd": {
+    "workflow.html": "e354fc58"
+  },
+  "workflow/paglaom.qmd": {
+    "paglaom.html": "3fe1feeb"
+  },
+  "software/lindol.qmd": {
+    "lindol.html": "4f63336d"
+  },
+  "software/openmarawi.qmd": {
+    "openmarawi.html": "f27b07a9"
+  },
+  "software/openbangsamoro.qmd": {
+    "openbangsamoro.html": "aa033d6d"
+  },
+  "software/covidphtext.qmd": {
+    "covidphtext.html": "6582d8dc"
+  },
+  "team/ernest-guevarra.qmd": {
+    "ernest-guevarra.html": "860b04f8"
+  }
+}
