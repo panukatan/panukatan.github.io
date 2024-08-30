@@ -13,15 +13,23 @@ RnwWeave: knitr
 LaTeX: pdfLaTeX
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
 >>>>>>> 154e3a1 (initial commit)
 =======
+=======
+>>>>>>> 828fe9e (initial commit)
 
 AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
 =======
 >>>>>>> 8133137 (initial commit)
+<<<<<<< HEAD
 >>>>>>> 069f0c7 (initial commit)
+=======
+=======
+>>>>>>> 8133137 (initial commit)
+>>>>>>> 828fe9e (initial commit)
