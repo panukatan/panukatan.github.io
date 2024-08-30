@@ -4,5 +4,8 @@ listing:
   contents: 
     - "../team/*.qmd"
   type: grid
+  image-height: 300px
+  image-placeholder: ../img/panukatan.png
+  grid-item-border: false
 ---
 
