@@ -1,0 +1,7 @@
+---
+title: Workflow
+listing:
+  contents:
+    - "../workflow/*.qmd"
+  type: grid
+---

@@ -1,0 +1,8 @@
+---
+title: Meet the Team
+listing:
+  contents: 
+    - "../team/*.qmd"
+  type: grid
+---
+
