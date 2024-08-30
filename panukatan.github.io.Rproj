@@ -12,6 +12,7 @@ Encoding: UTF-8
 RnwWeave: knitr
 LaTeX: pdfLaTeX
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
