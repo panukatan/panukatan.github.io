@@ -1,15 +1,5 @@
 [
   {
-    "listing": "/about/team.html",
-    "items": [
-      "/team/ernest-guevarra.html"
-    ]
-  },
-  {
-    "listing": "/projects/data.html",
-    "items": []
-  },
-  {
     "listing": "/projects/software.html",
     "items": [
       "/software/bagyo.html",
@@ -24,5 +14,15 @@
     "items": [
       "/workflow/paglaom.html"
     ]
+  },
+  {
+    "listing": "/about/team.html",
+    "items": [
+      "/team/ernest-guevarra.html"
+    ]
+  },
+  {
+    "listing": "/projects/data.html",
+    "items": []
   }
 ]

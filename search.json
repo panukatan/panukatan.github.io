@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "workflow/paglaom.html",
-    "href": "workflow/paglaom.html",
-    "title": "paglaom: An R workflow for curation of Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA) datasets",
+    "objectID": "software/lindol.html",
+    "href": "software/lindol.html",
+    "title": "lindol: An Interface to the PHIVOLCS Earthquake Bulletins",
     "section": "",
-    "text": "The paglaom project is a docker-containerised, {targets}-based, {renv}-enabled R workflow for the retrieval, processing, and curation of various Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA) publicly available datasets."
+    "text": "The Philippine Institute of Volcanology and Seismology (PHIVOLCS) maintains the National Earthquake Monitoring and Information which aims to provide accurate and timely information on significant earthquakes and tsunami events that may significantly impact the Philippines and ensures the accessibility and integrity of earthquake data.\nThis package provides an interface to this information with functions that harvest, process, and structure information from the frequent earthquake bulletins released by PHIVOLCS into machine-readable versions.\nThe package name lindol (pronounced /linˈdol/ [lɪn̪ˈd̪ol]) is the Tagalog word for earthquake."
   },
   {
-    "objectID": "workflow/paglaom.html#why-paglaom",
-    "href": "workflow/paglaom.html#why-paglaom",
-    "title": "paglaom: An R workflow for curation of Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA) datasets",
-    "section": "Why paglaom?",
-    "text": "Why paglaom?\nThe word paglaom (pronounced as /paɡˈlaʔom/, [pʌɡˈl̪a.ʔɔm]) is Bisaya (one of up to 187 languages spoken in the Philippines in addition to Filipino, which is the national language, and English, which is the language of instruction in the country) for hope. PAGASA, the national meteorological and hydrological services agency of the Philippines, draws its name from the Filipino word pag-asa which means hope. The project name choice, hence, is a play on these words and also a way to showcase the richness and diversity that exists in the Pilippines.\nThe paglaom project aims to maintain a database of curated datasets on varios atmospheric, geophysical, and astronomical phenomena that are made publicly available by PAGASA on their website. These datasets tend to be summaries of the multitude of data that PAGASA collects on a high frequency basis. They also tend to be in formats that are not machine-readable (e.g., PDF, PNG, HTML formats) meant for reporting to the Philippine population rather than actual datasets that are usable for academic and/or professional research. PAGASA does provide more granular and expansive datasets for research purposes through a specific data request process. The paglaom project itself doesn’t aim to perform research on the summarised datasets provided publicly on the PAGASA website (research specific to these datasets are in other workflows). Rather, the project aims to showcase publicly avaialble data that can be used for research and educational purposes some of which are:\n\nfor students who need to make a report on topics covered by PAGASA’s summarised data for a school assignment or project;\nfor individuals who have specific interest in one of the natural phenomena that PAGASA monitors and would like to get raw summarised data in a format that is usable and transferrable into other formats;\nfor data visualisation learners and aficionados who want to try on working on data about the various natural phenomena available from PAGASA and create unique and interesting plots and graphics.\n\nThe broader and more blue skies vision of the paglaom project is to contribute to the increasing interest in science, technology, engineering, and mathematics (STEM) subjects particularly in the Philippines with a collection that showcases topics and data that are homegrown and embedded into the fabric of Philippine life.\nWhilst the paglaom project by its name and the nature of the data it curates has an inherent Filipino audience, it is hoped that those outside of the Philippines will also find the information within useful in similar contexts described above."
+    "objectID": "software/openbangsamoro.html",
+    "href": "software/openbangsamoro.html",
+    "title": "openbangsamoro: An Interface to the OpenBangsamoro Database",
+    "section": "",
+    "text": "From the Open Bangsamoro website:\n\nThe OpenBangsamoro initiative supports the use of open statistical, geospatial, and administrative data for transparent, accountable, and participatory decision-making as the Autonomous Region in Muslim Mindanao (ARMM) transforms into the Bangsamoro Autonomous Region in Muslim Mindanao.\n\nThe {openbangsamoro} R package supports this effort by providing an application programming interface to the Open Bangsamoro shared Google Drive. Consistent with the principles of Open Bangsamoro, the {openbangsamoro} R package is built and distributed open source on a platform that allows and encourages community contribution using a programming language that is also open and freely available to use.\nWe believe that through this added layer of interface to the Open Bangsamoro datasets, a cadre of users and developers - including those from Bangsamoro itself - can support the process of mapmaking, placemaking, and decision-making that the Open Bangsamoro effort has initiated and continue to encourage."
+  },
+  {
+    "objectID": "software/bagyo.html",
+    "href": "software/bagyo.html",
+    "title": "bagyo: Philippine Tropical Cyclones Data",
+    "section": "",
+    "text": "Oceans and seas significantly impact continental weather, with evaporation from the sea surface driving cloud formation and precipitation. Tropical cyclones, warm-core low-pressure systems, form over warm oceans where temperatures exceed 26°C, precipitated by the release of latent heat from condensation. These cyclones, known by various names depending on the region, have organised circulations and develop primarily in tropical and subtropical waters, except in regions with cooler sea surface temperatures and high vertical wind shears. They reach peak intensity over warm tropical waters and weaken upon landfall, often causing extensive damage before dissipating.\nThe Philippines frequently experiences tropical cyclones (called bagyo - pronounced /baɡˈjo/, [bɐɡˈjo] - in the Filipino language) because of its geographical position. These cyclones typically bring heavy rainfall, leading to widespread flooding, as well as strong winds that cause significant damage to human life, crops, and property. Data on cyclones are collected and curated by the Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA).\nThis package contains Philippine tropical cyclones data from 2017 to 2021 in a machine-readable format. It is hoped that this data package provides an interesting and unique dataset for data exploration and visualisation as an adjunct to the traditional iris dataset and to the current palmerpenguins dataset."
   },
   {
     "objectID": "team/ernest-guevarra.html",
@@ -32,49 +39,42 @@
     "href": "team/ernest-guevarra.html#experience",
     "title": "Ernest Guevarra",
     "section": "Experience",
-    "text": "Experience\nCentre for Tropical Medicine and Global Health, Nuffield Department of Medicine, University of Oxford\nSenior Research and Teaching Associate | October 2023 - present\nEcoHealth Alliance\nConsulting Research Data Scientist | December 2020 - present\nKatilingban\nFouning Member | July 2020 - present\nCentre for Tropical Medicine and Global Health, Nuffield Department of Medicine, University of Oxford\nTeaching Fellow | July 2020 - October 2023\nValid International\nHead of Measures | January 2017 - March 2020\nValid International\nSurvey and Assessments Specialist | January 2015 - December 2016\nValid International\nTechnical Advisor | September 2009 - December 2014"
+    "text": "Experience\nCentre for Tropical Medicine and Global Health, Nuffield Department of Medicine, University of Oxford\nSenior Research and Teaching Associate | October 2023 - present\nTeaching Fellow | July 2020 - October 2023\nEcoHealth Alliance\nConsulting Research Data Scientist | December 2020 - present\nKatilingban\nFouning Member | July 2020 - present\nValid International\nHead of Measures | January 2017 - March 2020\nSurvey and Assessments Specialist | January 2015 - December 2016\nTechnical Advisor | September 2009 - December 2014"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to panukatan!",
+    "objectID": "projects/software.html",
+    "href": "projects/software.html",
+    "title": "Software",
     "section": "",
-    "text": "panukatan is an open-source project that aims to design and develop tools and systems to manage, analyse, and report various publicly-available data relevant to the Philippines for research and education purposes. It also hopes to contribute data and content usable for teaching science, technology, engineering, and mathematics (STEM) topics and for capacity-building on data literacy and data management. The term panukatan is a Filipino word that loosely translates to “metrics” or “standards”, which reflects the project’s overarching goal of providing standardised data, robust data tools, systems, and methods that support research and education in the Philippine context.\npanukatan is intended for research scientists working on topics related to the Philippines who require a robust set of tools and a system for managing and analysing data. It is also intended for various students and learners interested in topics related to the Philippines who need datasets and tools they can use for their studies and for learning fields related to data. Its open-source nature makes it accessible to a wide audience, allowing for continuous improvement and adaptation to various use cases.\nThe panukatan project exemplifies a collaborative effort to create a robust yet flexible toolkit for data-driven decision-making, tailored to the needs of research and learning communities in the Philippines."
+    "text": "bagyo: Philippine Tropical Cyclones Data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncovidphtext: Utilities to Extract Text Data From COVID-19-Related Resolutions and Policies From the Philippines\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlindol: An Interface to the PHIVOLCS Earthquake Bulletins\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nopenbangsamoro: An Interface to the OpenBangsamoro Database\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nopenmarawi: An Interface to the Open Marawi Database\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "software/lindol.html",
-    "href": "software/lindol.html",
-    "title": "lindol: An Interface to the PHIVOLCS Earthquake Bulletins",
+    "objectID": "projects/workflow.html",
+    "href": "projects/workflow.html",
+    "title": "Workflow",
     "section": "",
-    "text": "The Philippine Institute of Volcanology and Seismology (PHIVOLCS) maintains the National Earthquake Monitoring and Information which aims to provide accurate and timely information on significant earthquakes and tsunami events that may significantly impact the Philippines and ensures the accessibility and integrity of earthquake data.\nThis package provides an interface to this information with functions that harvest, process, and structure information from the frequent earthquake bulletins released by PHIVOLCS into machine-readable versions.\nThe package name lindol (pronounced /linˈdol/ [lɪn̪ˈd̪ol]) is the Tagalog word for earthquake."
+    "text": "paglaom: An R workflow for curation of Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA) datasets\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "software/openmarawi.html",
-    "href": "software/openmarawi.html",
-    "title": "openmarawi: An Interface to the Open Marawi Database",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "From the Open Marawi website:\n\nWhy Open Marawi?\n\n\nThe citizens of Marawi have a right to the data and maps about their home city. When problems are complex, helping people find useful maps (access) can aid them both in finding themselves in the map (understanding) and making the map by themselves (ownership).\n\n\nOpen data and useful maps can help empower citizens in mapmaking, placemaking, and decision-making because it can help citizens and interested parties in understanding the issues spatially. It is practical in deliberating, deciding, and delivering the rehabilitation of Marawi City.\n\nThe {openmarawi} R package supports this effort by providing an application programming interface to the Open Marawi shared Google Drive. Consistent with the principles of Open Marawi, the {openmarawi} R package is built and distributed open source on a platform that allows and encourages community contribution using a programming language that is also open and freely available to use.\nWe believe that through this added layer of interface to the Open Marawi datasets, a cadre of users and developers - including those from Marawi itself - can support the process of mapmaking, placemaking, and decision-making that the Open Marawi effort has initiated and continue to encourage."
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "software/bagyo.html",
-    "href": "software/bagyo.html",
-    "title": "bagyo: Philippine Tropical Cyclones Data",
+    "objectID": "workflow/paglaom.html",
+    "href": "workflow/paglaom.html",
+    "title": "paglaom: An R workflow for curation of Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA) datasets",
     "section": "",
-    "text": "Oceans and seas significantly impact continental weather, with evaporation from the sea surface driving cloud formation and precipitation. Tropical cyclones, warm-core low-pressure systems, form over warm oceans where temperatures exceed 26°C, precipitated by the release of latent heat from condensation. These cyclones, known by various names depending on the region, have organised circulations and develop primarily in tropical and subtropical waters, except in regions with cooler sea surface temperatures and high vertical wind shears. They reach peak intensity over warm tropical waters and weaken upon landfall, often causing extensive damage before dissipating.\nThe Philippines frequently experiences tropical cyclones (called bagyo - pronounced /baɡˈjo/, [bɐɡˈjo] - in the Filipino language) because of its geographical position. These cyclones typically bring heavy rainfall, leading to widespread flooding, as well as strong winds that cause significant damage to human life, crops, and property. Data on cyclones are collected and curated by the Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA).\nThis package contains Philippine tropical cyclones data from 2017 to 2021 in a machine-readable format. It is hoped that this data package provides an interesting and unique dataset for data exploration and visualisation as an adjunct to the traditional iris dataset and to the current palmerpenguins dataset."
+    "text": "The paglaom project is a docker-containerised, {targets}-based, {renv}-enabled R workflow for the retrieval, processing, and curation of various Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA) publicly available datasets."
   },
   {
-    "objectID": "software/openbangsamoro.html",
-    "href": "software/openbangsamoro.html",
-    "title": "openbangsamoro: An Interface to the OpenBangsamoro Database",
-    "section": "",
-    "text": "From the Open Bangsamoro website:\n\nThe OpenBangsamoro initiative supports the use of open statistical, geospatial, and administrative data for transparent, accountable, and participatory decision-making as the Autonomous Region in Muslim Mindanao (ARMM) transforms into the Bangsamoro Autonomous Region in Muslim Mindanao.\n\nThe {openbangsamoro} R package supports this effort by providing an application programming interface to the Open Bangsamoro shared Google Drive. Consistent with the principles of Open Bangsamoro, the {openbangsamoro} R package is built and distributed open source on a platform that allows and encourages community contribution using a programming language that is also open and freely available to use.\nWe believe that through this added layer of interface to the Open Bangsamoro datasets, a cadre of users and developers - including those from Bangsamoro itself - can support the process of mapmaking, placemaking, and decision-making that the Open Bangsamoro effort has initiated and continue to encourage."
-  },
-  {
-    "objectID": "software/covidphtext.html",
-    "href": "software/covidphtext.html",
-    "title": "covidphtext: Utilities to Extract Text Data From COVID-19-Related Resolutions and Policies From the Philippines",
-    "section": "",
-    "text": "To assess possible impact of various COVID-19 prediction models on Philippine government response, text from various resolutions issued by the Inter-agency Task Force for the Management of Emerging Infectious Diseases (IATF) has been collected using data mining approaches implemented in R. This package includes functions used for this data mining process and datasets of text that have been collected and processed for use in text analysis."
+    "objectID": "workflow/paglaom.html#why-paglaom",
+    "href": "workflow/paglaom.html#why-paglaom",
+    "title": "paglaom: An R workflow for curation of Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA) datasets",
+    "section": "Why paglaom?",
+    "text": "Why paglaom?\nThe word paglaom (pronounced as /paɡˈlaʔom/, [pʌɡˈl̪a.ʔɔm]) is Bisaya (one of up to 187 languages spoken in the Philippines in addition to Filipino, which is the national language, and English, which is the language of instruction in the country) for hope. PAGASA, the national meteorological and hydrological services agency of the Philippines, draws its name from the Filipino word pag-asa which means hope. The project name choice, hence, is a play on these words and also a way to showcase the richness and diversity that exists in the Pilippines.\nThe paglaom project aims to maintain a database of curated datasets on varios atmospheric, geophysical, and astronomical phenomena that are made publicly available by PAGASA on their website. These datasets tend to be summaries of the multitude of data that PAGASA collects on a high frequency basis. They also tend to be in formats that are not machine-readable (e.g., PDF, PNG, HTML formats) meant for reporting to the Philippine population rather than actual datasets that are usable for academic and/or professional research. PAGASA does provide more granular and expansive datasets for research purposes through a specific data request process. The paglaom project itself doesn’t aim to perform research on the summarised datasets provided publicly on the PAGASA website (research specific to these datasets are in other workflows). Rather, the project aims to showcase publicly avaialble data that can be used for research and educational purposes some of which are:\n\nfor students who need to make a report on topics covered by PAGASA’s summarised data for a school assignment or project;\nfor individuals who have specific interest in one of the natural phenomena that PAGASA monitors and would like to get raw summarised data in a format that is usable and transferrable into other formats;\nfor data visualisation learners and aficionados who want to try on working on data about the various natural phenomena available from PAGASA and create unique and interesting plots and graphics.\n\nThe broader and more blue skies vision of the paglaom project is to contribute to the increasing interest in science, technology, engineering, and mathematics (STEM) subjects particularly in the Philippines with a collection that showcases topics and data that are homegrown and embedded into the fabric of Philippine life.\nWhilst the paglaom project by its name and the nature of the data it curates has an inherent Filipino audience, it is hoped that those outside of the Philippines will also find the information within useful in similar contexts described above."
   },
   {
     "objectID": "about/team.html",
@@ -91,17 +91,24 @@
     "text": "No matching items"
   },
   {
-    "objectID": "projects/software.html",
-    "href": "projects/software.html",
-    "title": "Software",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to panukatan",
     "section": "",
-    "text": "bagyo: Philippine Tropical Cyclones Data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncovidphtext: Utilities to Extract Text Data From COVID-19-Related Resolutions and Policies From the Philippines\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlindol: An Interface to the PHIVOLCS Earthquake Bulletins\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nopenbangsamoro: An Interface to the OpenBangsamoro Database\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nopenmarawi: An Interface to the Open Marawi Database\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "panukatan is an open-source project that aims to design and develop tools and systems to manage, analyse, and report various publicly-available data relevant to the Philippines for research and education purposes. It also hopes to contribute data and content usable for teaching science, technology, engineering, and mathematics (STEM) topics and for capacity-building on data literacy and data management. The term panukatan is a Filipino word that loosely translates to “metrics” or “standards”, which reflects the project’s overarching goal of providing standardised data, robust data tools, systems, and methods that support research and education in the Philippine context.\npanukatan is intended for research scientists working on topics related to the Philippines who require a robust set of tools and a system for managing and analysing data. It is also intended for various students and learners interested in topics related to the Philippines who need datasets and tools they can use for their studies and for learning fields related to data. Its open-source nature makes it accessible to a wide audience, allowing for continuous improvement and adaptation to various use cases.\nThe panukatan project exemplifies a collaborative effort to create a robust yet flexible toolkit for data-driven decision-making, tailored to the needs of research and learning communities in the Philippines."
   },
   {
-    "objectID": "projects/workflow.html",
-    "href": "projects/workflow.html",
-    "title": "Workflow",
+    "objectID": "software/openmarawi.html",
+    "href": "software/openmarawi.html",
+    "title": "openmarawi: An Interface to the Open Marawi Database",
     "section": "",
-    "text": "paglaom: An R workflow for curation of Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA) datasets\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "From the Open Marawi website:\n\nWhy Open Marawi?\n\n\nThe citizens of Marawi have a right to the data and maps about their home city. When problems are complex, helping people find useful maps (access) can aid them both in finding themselves in the map (understanding) and making the map by themselves (ownership).\n\n\nOpen data and useful maps can help empower citizens in mapmaking, placemaking, and decision-making because it can help citizens and interested parties in understanding the issues spatially. It is practical in deliberating, deciding, and delivering the rehabilitation of Marawi City.\n\nThe {openmarawi} R package supports this effort by providing an application programming interface to the Open Marawi shared Google Drive. Consistent with the principles of Open Marawi, the {openmarawi} R package is built and distributed open source on a platform that allows and encourages community contribution using a programming language that is also open and freely available to use.\nWe believe that through this added layer of interface to the Open Marawi datasets, a cadre of users and developers - including those from Marawi itself - can support the process of mapmaking, placemaking, and decision-making that the Open Marawi effort has initiated and continue to encourage."
+  },
+  {
+    "objectID": "software/covidphtext.html",
+    "href": "software/covidphtext.html",
+    "title": "covidphtext: Utilities to Extract Text Data From COVID-19-Related Resolutions and Policies From the Philippines",
+    "section": "",
+    "text": "To assess possible impact of various COVID-19 prediction models on Philippine government response, text from various resolutions issued by the Inter-agency Task Force for the Management of Emerging Infectious Diseases (IATF) has been collected using data mining approaches implemented in R. This package includes functions used for this data mining process and datasets of text that have been collected and processed for use in text analysis."
   }
 ]
