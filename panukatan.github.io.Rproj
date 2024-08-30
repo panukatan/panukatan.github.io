@@ -15,6 +15,7 @@ LaTeX: pdfLaTeX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 AutoAppendNewline: Yes
@@ -39,3 +40,10 @@ StripTrailingWhitespace: Yes
 AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
 >>>>>>> 154e3a1 (initial commit)
+=======
+
+AutoAppendNewline: Yes
+StripTrailingWhitespace: Yes
+=======
+>>>>>>> 8133137 (initial commit)
+>>>>>>> 069f0c7 (initial commit)

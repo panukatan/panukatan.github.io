@@ -1,5 +1,6 @@
 project:
   type: website
+<<<<<<< HEAD
   output-dir: docs
 
 website:
@@ -43,13 +44,31 @@ website:
     tracking-id: ""
     anonymize-ip: true
     
+=======
+
+website:
+  title: "panukatan.github.io"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+>>>>>>> 069f0c7 (initial commit)
 format:
   html:
     theme: cosmo
     css: styles.css
+<<<<<<< HEAD
     grid:
       sidebar-width: 250px
       body-width: 900px
       margin-width: 250px
       gutter-width: 1.5rem
     toc: true
+=======
+    toc: true
+
+
+
+>>>>>>> 069f0c7 (initial commit)
