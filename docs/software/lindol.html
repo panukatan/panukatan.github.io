@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>openbangsamoro: An Interface to the OpenBangsamoro Database – panukatan</title>
+<title>lindol: An Interface to the PHIVOLCS Earthquake Bulletins – panukatan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -97,20 +97,20 @@ cookieconsent.run({
   
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-sidebar floating nav-fixed slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/panukatan.png" alt="panukatan logo" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/panukatan.png" alt="panukatan logo" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">panukatan</span>
     </a>
   </div>
@@ -121,35 +121,24 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../index.html" aria-current="page"> 
+    <a class="nav-link active" href="../../index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Projects</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
-        <li>
-    <a class="dropdown-item" href="../projects/software.html">
- <span class="dropdown-text">Software</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/projects/index.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/workflow.html">
- <span class="dropdown-text">Workflow</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../about/team.html">
+    <a class="dropdown-item" href="../../docs/about/team.html">
  <span class="dropdown-text">Meet the Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../about/contact.html">
+    <a class="dropdown-item" href="../../docs/about/contact.html">
  <span class="dropdown-text">Contact Us</span></a>
   </li>  
     </ul>
@@ -171,7 +160,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">openbangsamoro: An Interface to the OpenBangsamoro Database</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">lindol: An Interface to the PHIVOLCS Earthquake Bulletins</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -182,8 +171,8 @@ cookieconsent.run({
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../img/panukatan.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/panukatan.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
 </nav>
@@ -193,11 +182,11 @@ cookieconsent.run({
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">openbangsamoro: An Interface to the OpenBangsamoro Database</h1>
+<h1 class="title">lindol: An Interface to the PHIVOLCS Earthquake Bulletins</h1>
 </div>
 
 
@@ -214,16 +203,13 @@ cookieconsent.run({
 </header>
 
 
-<div class="column.margin">
-<p><a href="https://panukatan.io/openbangsamoro/"><img src="../img/openbangsamoro.png" class="img-fluid"></a></p>
-</div>
-<p><a href="https://www.repostatus.org/#wip"><img src="https://www.repostatus.org/badges/latest/wip.svg" class="img-fluid" alt="Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public."></a> <a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" class="img-fluid" alt="Lifecycle: experimental"></a> <a href="https://github.com/panukatan/openbangsamoro/actions/workflows/R-CMD-check.yaml"><img src="https://github.com/panukatan/openbangsamoro/actions/workflows/R-CMD-check.yaml/badge.svg" class="img-fluid" alt="R-CMD-check"></a> <a href="https://github.com/panukatan/openbangsamoro/actions/workflows/test-coverage.yaml"><img src="https://github.com/panukatan/openbangsamoro/actions/workflows/test-coverage.yaml/badge.svg" class="img-fluid" alt="test-coverage"></a> <a href="https://codecov.io/gh/panukatan/openbangsamoro?branch=main"><img src="https://codecov.io/gh/panukatan/openbangsamoro/branch/main/graph/badge.svg" class="img-fluid" alt="Codecov test coverage"></a> <a href="https://www.codefactor.io/repository/github/panukatan/openbangsamoro"><img src="https://www.codefactor.io/repository/github/panukatan/openbangsamoro/badge.png" class="img-fluid" alt="CodeFactor"></a></p>
-<p>From the <a href="https://www.openbangsamoro.com/">Open Bangsamoro website</a>:</p>
-<blockquote class="blockquote">
-<p>The <a href="https://www.openbangsamoro.com"><strong>OpenBangsamoro</strong> initiative</a> supports the use of open statistical, geospatial, and administrative data for transparent, accountable, and participatory decision-making as the Autonomous Region in Muslim Mindanao (ARMM) transforms into the Bangsamoro Autonomous Region in Muslim Mindanao.</p>
-</blockquote>
-<p>The <code>{openbangsamoro}</code> R package supports this effort by providing an application programming interface to the <a href="https://drive.google.com/drive/folders/1W8JV4hth_gs1V6efb92HMz0eU2LRYbOO">Open Bangsamoro shared Google Drive</a>. Consistent with the principles of Open Bangsamoro, the <code>{openbangsamoro}</code> R package is built and distributed open source on a platform that allows and encourages community contribution using a programming language that is also open and freely available to use.</p>
-<p>We believe that through this added layer of interface to the Open Bangsamoro datasets, a cadre of users and developers - including those from Bangsamoro itself - can support the process of mapmaking, placemaking, and decision-making that the Open Bangsamoro effort has initiated and continue to encourage.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><a href="https://panukatan.io/lindol/"><img src="../../images/lindol.png" class="img-fluid"></a></p>
+</div></div><p><a href="https://www.repostatus.org/#wip"><img src="https://www.repostatus.org/badges/latest/wip.svg" class="img-fluid" alt="Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public."></a> <a href="https://lifecycle.r-lib.org/articles/stages.html#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" class="img-fluid" alt="Lifecycle: experimental"></a> <a href="https://github.com/panukatan/lindol/actions/workflows/R-CMD-check.yaml"><img src="https://github.com/panukatan/lindol/actions/workflows/R-CMD-check.yaml/badge.svg" class="img-fluid" alt="R-CMD-check.yaml"></a> <a href="https://github.com/panukatan/lindol/actions/workflows/test-coverage.yaml"><img src="https://github.com/panukatan/lindol/actions/workflows/test-coverage.yaml/badge.svg" class="img-fluid" alt="test-coverage.yaml"></a> <a href="https://app.codecov.io/gh/panukatan/lindol?branch=main"><img src="https://codecov.io/gh/panukatan/lindol/branch/main/graph/badge.svg" class="img-fluid" alt="Codecov test coverage"></a> <a href="https://www.codefactor.io/repository/github/panukatan/lindol"><img src="https://www.codefactor.io/repository/github/panukatan/lindol/badge.png" class="img-fluid" alt="CodeFactor"></a> <a href="https://zenodo.org/badge/latestdoi/841075120"><img src="https://zenodo.org/badge/841075120.svg" class="img-fluid" alt="DOI"></a></p>
+<p>The <a href="https://phivolcs.dost.gov.ph/">Philippine Institute of Volcanology and Seismology (PHIVOLCS)</a> maintains the National Earthquake Monitoring and Information which aims to provide accurate and timely information on significant earthquakes and tsunami events that may significantly impact the Philippines and ensures the accessibility and integrity of earthquake data.</p>
+<p>This package provides an interface to this information with functions that harvest, process, and structure information from the frequent earthquake bulletins released by PHIVOLCS into machine-readable versions.</p>
+<p>The package name <strong>lindol</strong> (pronounced <em>/linˈdol/ [lɪn̪ˈd̪ol]</em>) is the Tagalog word for earthquake.</p>
 
 
 
@@ -656,7 +642,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2024, Ernest Guevarra</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/panukatan/panukatan.github.io/edit/main/software/openbangsamoro.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/panukatan/panukatan.github.io/blob/main/software/openbangsamoro.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/panukatan/panukatan.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/panukatan/panukatan.github.io/edit/main/docs/software/lindol.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/panukatan/panukatan.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

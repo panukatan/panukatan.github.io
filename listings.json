@@ -1,28 +1,32 @@
 [
   {
-    "listing": "/projects/software.html",
+    "listing": "/docs/projects/software.html",
     "items": [
-      "/software/bagyo.html",
-      "/software/covidphtext.html",
-      "/software/lindol.html",
-      "/software/openbangsamoro.html",
-      "/software/openmarawi.html"
+      "/docs/software/bagyo.html",
+      "/docs/software/covidphtext.html",
+      "/docs/software/lindol.html",
+      "/docs/software/openbangsamoro.html",
+      "/docs/software/openmarawi.html"
     ]
   },
   {
-    "listing": "/projects/workflow.html",
+    "listing": "/docs/projects/workflow.html",
     "items": [
-      "/workflow/paglaom.html"
+      "/docs/workflow/paglaom.html"
     ]
   },
   {
-    "listing": "/about/team.html",
+    "listing": "/docs/about/team.html",
     "items": [
-      "/team/ernest-guevarra.html"
+      "/docs/team/ernest-guevarra.html"
     ]
   },
   {
-    "listing": "/projects/data.html",
+    "listing": "/docs/projects/data.html",
+    "items": []
+  },
+  {
+    "listing": "/docs/projects/index.html",
     "items": []
   }
 ]
