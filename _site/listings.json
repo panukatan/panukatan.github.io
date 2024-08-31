@@ -1,0 +1,32 @@
+[
+  {
+    "listing": "/docs/about/team.html",
+    "items": [
+      "/docs/team/ernest-guevarra.html"
+    ]
+  },
+  {
+    "listing": "/docs/projects/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docs/projects/data.html",
+    "items": []
+  },
+  {
+    "listing": "/docs/projects/software.html",
+    "items": [
+      "/docs/software/bagyo.html",
+      "/docs/software/covidphtext.html",
+      "/docs/software/lindol.html",
+      "/docs/software/openbangsamoro.html",
+      "/docs/software/openmarawi.html"
+    ]
+  },
+  {
+    "listing": "/docs/projects/workflow.html",
+    "items": [
+      "/docs/workflow/paglaom.html"
+    ]
+  }
+]
