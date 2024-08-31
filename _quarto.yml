@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: panukatan
@@ -8,7 +7,7 @@ website:
   navbar:
     title: panukatan
     background: info
-    logo: /img/panukatan.png
+    logo: images/panukatan.png
     logo-alt: panukatan logo
     tools:
       - icon: github
@@ -17,15 +16,16 @@ website:
       - href: index.qmd
         text: Home
       - text: Projects
-        menu:
-          - href: projects/software.qmd
-          - href: projects/workflow.qmd
+        href: docs/projects/index.qmd
+        # menu:
+        #   - href: projects/software.qmd
+        #   - href: projects/workflow.qmd
       - text: About
         menu:
-          - href: about/team.qmd
-          - href: about/contact.qmd
+          - href: docs/about/team.qmd
+          - href: docs/about/contact.qmd
   sidebar:
-    logo: /img/panukatan.png
+    logo: images/panukatan.png
     logo-alt: panukatan logo
   page-footer:
     center: "Copyright 2024, Ernest Guevarra"
@@ -33,7 +33,7 @@ website:
     border: false
   reader-mode: true
   repo-url: https://github.com/panukatan/panukatan.github.io
-  repo-actions: [edit, source, issue]
+  repo-actions: [edit, issue]
   issue-url: https://github.com/panukatan/panukatan.github.io/issues
   cookie-consent:
     type: express

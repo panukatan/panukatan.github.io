@@ -1,4 +1,4 @@
-# panukatan Website
+# panukatan Website <a href="https://panukatan.io" target="_blank"><img src="img/panukatan.png" width="200" align="right" /></a>
 
 [![Quarto Publish](https://github.com/panukatan/panukatan.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/panukatan/panukatan.github.io/actions/workflows/publish.yml)
 
@@ -11,6 +11,3 @@ The **panukatan** project exemplifies a collaborative effort to create a robust 
 ## About this repository
 
 This repository builds and serves the panukatan [website](https://oxford-ihtm.io).
-
-
-

@@ -1,0 +1,11 @@
+---
+title: Meet the Team
+listing:
+  contents: 
+    - "../team/*.qmd"
+  type: grid
+  image-height: 300px
+  image-placeholder: ../../images/panukatan.png
+  grid-item-border: false
+---
+

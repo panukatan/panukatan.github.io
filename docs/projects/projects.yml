@@ -1,0 +1,20 @@
+- title: R Packages
+  subtitle: Data and Research Software
+  links:
+  - text: bagyo
+    href: ../software/bagyo.qmd
+  - text: covidphtext
+    href: ../software/covidphtext.qmd
+  - text: lindol
+    href: ../software/lindol.qmd
+  - text: openbangsamoro
+    href: ../software/openbangsamoro.qmd
+  - text: openmarawi
+    href: ../software/openmarawi.qmd
+  
+
+- title: Workflows
+  subtitle: Programmatic and Computational Workflows
+  links:
+    - text: "paglaom"
+      href: ../workflow/paglaom.qmd
