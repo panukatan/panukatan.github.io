@@ -25,8 +25,30 @@ website:
           - href: docs/about/team.qmd
           - href: docs/about/contact.qmd
   sidebar:
-    logo: images/panukatan.png
-    logo-alt: panukatan logo
+    - id: projects
+      collapse-level: 1
+      contents:
+        - section: Projects
+          href: docs/projects/index.qmd
+          contents:
+            - section: R Packages
+              contents:
+                - text: bagyo
+                  href: docs/software/bagyo.qmd
+                - text: covidphtext
+                  href: docs/software/covidphtext.qmd
+                - text: lindol
+                  href: docs/software/lindol.qmd
+                - text: openbangsamoro
+                  href: docs/software/openbangsamoro.qmd
+                - text: openmarawi
+                  href: docs/software/openmarawi.qmd
+            - section: Workflows
+              contents:
+                - text: paglaom
+                  href: docs/workflow/paglaom.qmd
+    - id: team
+
   page-footer:
     center: "Copyright 2024, Ernest Guevarra"
     background: light

@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: "Projects"
 image: ../../images/panukatan.png
 page-layout: article
 anchor-sections: false
