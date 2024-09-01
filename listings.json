@@ -1,5 +1,15 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/docs/software/bagyo.html",
+      "/docs/software/covidphtext.html",
+      "/docs/software/lindol.html",
+      "/docs/software/openbangsamoro.html",
+      "/docs/software/openmarawi.html"
+    ]
+  },
+  {
     "listing": "/docs/projects/software.html",
     "items": [
       "/docs/software/bagyo.html",
