@@ -3,6 +3,15 @@ title: ""
 page-layout: custom
 section-divs: false
 toc: false
+listing:
+  id: featured-projects
+  contents:
+    - "../docs/software/*.qmd"
+  type: grid
+  image-height: 400px
+  image-placeholder: ../img/panukatan.png
+  grid-item-border: false
+  max-items: 3
 ---
 
 ::: {.hero-banner}
@@ -34,4 +43,13 @@ The **panukatan** project exemplifies a collaborative effort to create a robust 
 
 :::
 
+
+::: {.content-block}
+
+# Featured projects
+
+::: {#featured-projects}
+:::
+
+:::
 
