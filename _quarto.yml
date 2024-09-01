@@ -64,7 +64,7 @@ website:
     style: simple
     palette: light
   google-analytics:
-    tracking-id: ""
+    tracking-id: "G-YWE53K1LQ1"
     anonymize-ip: true
 
 format:
