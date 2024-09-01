@@ -48,6 +48,8 @@ website:
                 - text: paglaom
                   href: docs/workflow/paglaom.qmd
     - id: team
+      logo: ../../images/panukatan.png
+      logo-alt: panukatan logo
 
   page-footer:
     center: "Copyright 2024, Ernest Guevarra"
