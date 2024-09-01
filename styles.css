@@ -71,15 +71,15 @@
 }
 
 @media (min-width: 1200px) {
-.hero-banner .hero-image {
-  width: 340px;
-}
+  .hero-banner .hero-image {
+    width: 340px;
+  }
 }
 
 @media (min-width: 1400px) {
-.hero-banner .hero-image {
-  width: 300px;
-}
+  .hero-banner .hero-image {
+    width: 300px;
+  }
 }
 
 .hero-banner .hero-image p {

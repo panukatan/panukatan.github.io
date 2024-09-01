@@ -21,7 +21,7 @@ The **panukatan** project exemplifies a collaborative effort to create a robust 
 
 <!-- ::: {.hero-buttons} -->
 <!-- [Projects](/docs/projects/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"} -->
-<!-- :::  -->
+<!-- ::: -->
 
 :::
 
