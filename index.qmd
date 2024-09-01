@@ -19,9 +19,9 @@ toc: false
 
 The **panukatan** project exemplifies a collaborative effort to create a robust yet flexible toolkit for data-driven decision-making, tailored to the needs of research and learning communities in the Philippines.
 
-::: {.hero-buttons}
-[Projects](/docs/projects/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
-::: 
+<!-- ::: {.hero-buttons} -->
+<!-- [Projects](/docs/projects/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"} -->
+<!-- :::  -->
 
 :::
 
