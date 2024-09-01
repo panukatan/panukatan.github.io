@@ -3,6 +3,8 @@ title: "paglaom: An R workflow for curation of Philippine Atmospheric, Geophysic
 image: ../../images/pagasa.jpg
 ---
 
+[![License for code](https://img.shields.io/badge/license (for code)-GPL3.0-blue.svg)](https://opensource.org/licenses/gpl-3.0.html)
+[![License for data](https://img.shields.io/badge/license (for data)-CC0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![test targets workflow](https://github.com/panukatan/pagasa_db/actions/workflows/test-targets-workflow.yml/badge.svg)](https://github.com/panukatan/pagasa_db/actions/workflows/test-targets-workflow.yml)
 [![test targets climate](https://github.com/panukatan/paglaom/actions/workflows/test-targets-climate.yml/badge.svg)](https://github.com/panukatan/paglaom/actions/workflows/test-targets-climate.yml)
@@ -12,13 +14,14 @@ image: ../../images/pagasa.jpg
 [![deploy targets releases](https://github.com/panukatan/paglaom/actions/workflows/deploy-targets-releases.yml/badge.svg)](https://github.com/panukatan/paglaom/actions/workflows/deploy-targets-releases.yml)
 [![DOI](https://zenodo.org/badge/782627894.svg)](https://zenodo.org/doi/10.5281/zenodo.10934146)
 
-The `paglaom` project is a [`docker`](https://www.docker.com/get-started)-containerised, [`{targets}`](https://docs.ropensci.org/targets/)-based, [`{renv}`](https://rstudio.github.io/renv/articles/renv.html)-enabled [`R`](https://cran.r-project.org/) workflow for the retrieval, processing, and curation of various Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA) publicly available datasets.
+
+This repository is a [`docker`](https://www.docker.com/get-started)-containerised, [`{targets}`](https://docs.ropensci.org/targets/)-based, [`{renv}`](https://rstudio.github.io/renv/articles/renv.html)-enabled [`R`](https://cran.r-project.org/) workflow for the retrieval, processing, and curation of various [Philippine Atmospheric, Geophysical, and Astronomical Services Administration (PAGASA)](https://www.pagasa.dost.gov.ph/) publicly available datasets.
 
 ## Why `paglaom`?
 
-The word `paglaom` (pronounced as */paɡˈlaʔom/, [pʌɡˈl̪a.ʔɔm]*) is Bisaya (one of up to 187 languages spoken in the Philippines in addition to Filipino, which is the national language, and English, which is the language of instruction in the country) for hope. [PAGASA](https://pagasa.dost.gov.ph), the national meteorological and hydrological services agency of the Philippines, draws its name from the Filipino word *pag-asa* which means hope. The project name choice, hence, is a play on these words and also a way to showcase the richness and diversity that exists in the Pilippines.
+The word `paglaom` (pronounced as */paɡˈlaʔom/, [pʌɡˈl̪a.ʔɔm]*) is Bisaya (one of up to 187 languages spoken in the Philippines in addition to Filipino, which is the national language, and English, which is the language of instruction in the country) for hope. [PAGASA](https://pagasa.dost.gov.ph), the national meteorological and hydrological services agency of the Philippines, draws its name from the Filipino word *pag-asa* which means hope. The repository name choice, hence, is a play on these words and also a way to showcase the richness and diversity that exists in the Pilippines.
 
-The `paglaom` project aims to maintain a database of curated datasets on varios atmospheric, geophysical, and astronomical phenomena that are made publicly available by PAGASA on their website. These datasets tend to be summaries of the multitude of data that PAGASA collects on a high frequency basis. They also tend to be in formats that are not machine-readable (e.g., PDF, PNG, HTML formats) meant for reporting to the Philippine population rather than actual datasets that are usable for academic and/or professional research. PAGASA does provide more granular and expansive datasets for research purposes through a specific data request process. The `paglaom` project itself doesn't aim to perform research on the summarised datasets provided publicly on the PAGASA website (research specific to these datasets are in other workflows). Rather, the project aims to showcase publicly avaialble data that can be used for research and educational purposes some of which are:
+The `paglaom` project aims to maintain a database of curated datasets on varios atmospheric, geophysical, and astronomical phenomena that are made publicly available by PAGASA on their website. These datasets tend to be summaries of the multitude of data that PAGASA collects on a high frequency basis. They also tend to be in formats that are not machine-readable (e.g., PDF, PNG, HTML formats) meant for reporting to the Philippine population. PAGASA does provide more granular and expansive datasets through a specific data request process. The `paglaom` project aims to showcase publicly available PAGASA data that can be used for various purposes some of which are:
 
 * for students who need to make a report on topics covered by PAGASA's summarised data for a school assignment or project;
 
