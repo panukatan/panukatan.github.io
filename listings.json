@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/docs/projects/index.html",
+    "items": []
+  },
+  {
+    "listing": "/docs/projects/data.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/docs/software/bagyo.html",
@@ -30,13 +38,5 @@
     "items": [
       "/docs/team/ernest-guevarra.html"
     ]
-  },
-  {
-    "listing": "/docs/projects/data.html",
-    "items": []
-  },
-  {
-    "listing": "/docs/projects/index.html",
-    "items": []
   }
 ]
