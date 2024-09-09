@@ -6,7 +6,7 @@ website:
   site-url: https://panukatan.io
   navbar:
     title: panukatan
-    background: info
+    background: primary
     logo: images/panukatan.png
     logo-alt: panukatan logo
     tools:
@@ -69,7 +69,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: pulse
     css: styles.css
     grid:
       sidebar-width: 250px
