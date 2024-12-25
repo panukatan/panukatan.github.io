@@ -8,9 +8,14 @@ website:
     title: panukatan
     background: primary
     logo: images/panukatan.png
-    logo-alt: panukatan logo
+    logo-alt: panukatan
     tools:
+      - icon: mastodon
+        aria-label: Mastodon
+        href: https://mastodon.social/@panukatan
+        rel: me
       - icon: github
+        aria-label: GitHub
         href: https://github.com/panukatan
     left:
       - href: index.qmd
@@ -49,7 +54,7 @@ website:
                   href: docs/workflow/paglaom.qmd
     - id: team
       logo: ../../images/panukatan.png
-      logo-alt: panukatan logo
+      logo-alt: panukatan
 
   page-footer:
     center: "Copyright 2024, Ernest Guevarra"
